@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bubble Game</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="topbar">
+        <div class="top">
+            <div class="detail">
+                <h3>HIT</h3>
+                <div class="param" id="hit"></div>
+            </div>
+            <div class="detail">
+                <h3>TIMER</h3>
+                <div class="param" id="timer">60</div>
+            </div>
+            <div class="detail">
+                <h3>SCORE</h3>
+                <div class="param" id="score">0</div>
+            </div>
+        </div>
+        <div class="buttons">
+            <button class="but" id="start"><img id="startImg" src="https://cdn3d.iconscout.com/3d/premium/thumb/start-button-3d-icon-download-in-png-blend-fbx-gltf-file-formats--launch-power-on-game-pack-indoor-games-icons-9686058.png?f=webp" ></button>
+            <button class="but" id="resume"><img
+                    src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQlLhQNAPUQBjpX375Czu86RtoPp6R_HBNr8Q&s"
+                    alt="">
+            </button>
+            <button class="but" id="pause"><img src="https://cdn-icons-png.flaticon.com/512/16/16427.png"></button>
+        </div>
+    </div>
+    <div class="main" id="main">
+        <div id="bubble">2</div>
+    </div>
+    <div id="gameOver">
+        <div id="finalScore">
+            <h2>Score :</h2>
+            <div id="scoreNum"></div>
+        </div>
+    </div>
+
+
+    <script src="script.js"></script>
+    <!-- <script src="chatgpt.js"></script> -->
+</body>
+
+</html>
